@@ -1,0 +1,127 @@
+site_name: Game Programming Handbook
+site_description: A comprehensive Turkish handbook for game programming, Unity, game design, AI, animation, optimization, and project management.
+site_author: Beyza Uzun
+site_url: https://beyzauzun-ai.github.io/game-programming-handbook/
+
+repo_name: beyzauzun-ai/game-programming-handbook
+repo_url: https://github.com/beyzauzun-ai/game-programming-handbook
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: tr
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Koyu temaya geç
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Açık temaya geç
+
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Ana Sayfa: index.md
+
+  - Başlangıç:
+      - Rehber Hakkında: introduction.md
+      - Oyun Endüstrisi: game-industry.md
+      - Geliştirme Süreci: development-pipeline.md
+
+  - Programlama:
+      - Programlama Temelleri: programming-fundamentals.md
+      - Oyun Motorları: game-engines.md
+      - Akış Kontrolü ve OOP: control-flow-and-oop.md
+      - Programlama Uygulamaları: programming-practices.md
+
+  - Unity:
+      - Unity Temelleri: unity-fundamentals.md
+      - Nesneler ve Veri Yönetimi: objects-and-data.md
+      - Fizik ve Çarpışmalar: physics-and-collisions.md
+      - Oyuncu Sistemleri: player-systems.md
+
+  - Oyun Tasarımı:
+      - Oyun Mekanikleri: game-mechanics.md
+      - Oynanış Tasarımı: game-design.md
+      - Oyun Yapay Zekâsı: game-ai.md
+
+  - Görsel ve İşitsel Üretim:
+      - Oyun Varlıkları: game-assets.md
+      - 3D Animasyon: 3d-animation.md
+      - Animasyon Entegrasyonu: animation-integration.md
+
+  - Optimizasyon:
+      - Performans Optimizasyonu: performance-optimization.md
+
+  - Yönetim:
+      - Proje Yönetimi: project-management.md
+      - Oyun Prodüksiyonu: game-production.md
+      - Bütçe Yönetimi: budget-management.md
+
+  - Kaynaklar:
+      - Hızlı Tekrar: quick-review.md
+      - Mülakat Soruları: interview-questions.md
+      - Terimler Sözlüğü: glossary.md
+
+plugins:
+  - search:
+      lang: tr
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - abbr
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/beyzauzun-ai
+      name: Beyza Uzun on GitHub
+
+copyright: >
+  Copyright &copy; 2026 Beyza Uzun
