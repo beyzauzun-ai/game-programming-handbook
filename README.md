@@ -129,7 +129,7 @@ Certificate: Verified Certificate
 Beyza Uzun
 
 GitHub: beyzauzun-ai
-LinkedIn: Add your LinkedIn profile link here
+LinkedIn: https://www.linkedin.com/in/beyza-uzun-1520672b5/
 📄 License
 
 This project is intended for educational purposes.
