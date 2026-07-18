@@ -12,7 +12,8 @@ theme:
   language: tr
 
   logo: assets/images/logo.png
-  favicon: assets/favicon.png
+  favicon: assets/images/favicon.png
+
 
   palette:
 
