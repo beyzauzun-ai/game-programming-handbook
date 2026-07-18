@@ -1,4 +1,4 @@
-site_name: 🎮 Game Programming Handbook
+site_name: Game Programming Handbook
 site_description: Türkçe Oyun Programlama Dokümantasyonu
 site_author: Beyza Uzun
 site_url: https://beyzauzun-ai.github.io/game-programming-handbook/
@@ -14,22 +14,20 @@ theme:
   logo: assets/images/logo.png
   favicon: assets/images/favicon.png
 
-
   palette:
-
     - scheme: slate
-      primary: indigo
+      primary: deep purple
       accent: cyan
       toggle:
         icon: material/weather-sunny
-        name: Açık Tema
+        name: Açık temaya geç
 
     - scheme: default
-      primary: indigo
+      primary: deep purple
       accent: cyan
       toggle:
         icon: material/weather-night
-        name: Koyu Tema
+        name: Koyu temaya geç
 
   features:
     - navigation.tabs
@@ -38,53 +36,90 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
-
     - search.highlight
     - search.suggest
     - search.share
-
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
-
     - toc.follow
 
 plugins:
-  - search
+  - search:
+      lang: tr
 
 markdown_extensions:
-
   - admonition
-
   - attr_list
-
   - md_in_html
-
   - tables
-
   - footnotes
-
+  - def_list
   - pymdownx.details
-
   - pymdownx.superfences
-
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
-
-  - pymdownx.inlinehilite
-
-  - pymdownx.snippets
-
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.tabbed:
       alternate_style: true
 
+nav:
+  - Ana Sayfa: index.md
+
+  - Başlangıç:
+      - 1. Oyun Endüstrisi: game-industry.md
+      - 2. Oyun Geliştirme Süreci: development-pipeline.md
+
+  - Programlama:
+      - 3. Programlama Temelleri: programming-fundamentals.md
+      - 4. Oyun Motorları: game-engines.md
+      - 5. Oyun Mekanikleri: game-mechanics.md
+      - 6. Kontrol Akışı ve OOP: control-flow-and-oop.md
+
+  - Unity:
+      - 7. Unity Temelleri: unity-fundamentals.md
+      - 8. Nesneler ve Veri Yönetimi: objects-and-data.md
+      - 9. Fizik ve Çarpışmalar: physics-and-collisions.md
+      - 10. Oyuncu Sistemleri: player-systems.md
+      - 11. Oyun Sistemleri: game-systems.md
+
+  - Oyun Tasarımı ve Üretim:
+      - 12. Oyun Yapay Zekâsı: game-ai.md
+      - 13. Oyun Varlıkları: game-assets.md
+      - 14. Animasyon: animation.md
+      - 15. Animasyon Entegrasyonu: animation-integration.md
+
+  - Optimizasyon ve Uygulamalar:
+      - 16. Performans Optimizasyonu: performance-optimization.md
+      - 17. Programlama Uygulamaları: programming-practices.md
+
+  - Yönetim:
+      - 18. Proje Yönetimi: project-management.md
+      - 19. Oyun Üretimi: game-production.md
+      - 20. Bütçe Yönetimi: budget-management.md
+
+  - Ek Bölümler:
+      - Terimler Sözlüğü: glossary.md
+      - Mülakat Soruları: interview-questions.md
+
 extra:
-
   social:
-
     - icon: fontawesome/brands/github
       link: https://github.com/beyzauzun-ai
+      name: Beyza Uzun GitHub
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/beyza-uzun-1520672b5
+      name: Beyza Uzun LinkedIn
 
 copyright: |
-  © 2026 Beyza Uzun • Game Programming Handbook
+  © 2026 Beyza Uzun
+  <br>
+  Made with ❤️ using MkDocs Material
