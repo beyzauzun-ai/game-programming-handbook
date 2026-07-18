@@ -1,89 +1,133 @@
-# 🎮 Game Programming Handbook
+🎮 Game Programming Handbook: From Fundamentals to Production
 
-> **A comprehensive Turkish handbook for learning Game Programming, Unity, and Game Development.**
+> **A Comprehensive Open-Source Guide to Game Development with Unity**
 
----
+Welcome to the **Game Programming Handbook**, an open-source documentation project designed to help developers learn the fundamentals of game development using **Unity** and **C#**.
 
-## 👋 Welcome
-
-Welcome to **Game Programming Handbook**.
-
-This project is a structured collection of my study notes based on the **From Code to Creation: Mastering Game Programming** course on **edX**.
-
-Instead of keeping my notes as a simple document, I decided to transform them into an open-source documentation website using **MkDocs Material**.
+This handbook combines theoretical concepts with practical Unity examples, making it suitable for beginners, students, and aspiring game developers.
 
 ---
 
-## 🎯 Goals
+## 🚀 What You'll Learn
 
-This handbook aims to:
+This handbook covers the complete game development workflow, including:
 
-- 📚 Reinforce my game programming knowledge
-- 💻 Improve my technical documentation skills
-- 🎮 Build a comprehensive Turkish learning resource
-- 🚀 Practice MkDocs Material
-- 🌍 Share knowledge with the community
-
----
-
-## 📖 Topics
-
-The handbook covers:
-
-- 🎮 Game Industry
-- 💻 Game Programming Fundamentals
-- 🕹️ Unity Fundamentals
-- 🤖 Artificial Intelligence
+- 🎮 Game Industry Fundamentals
+- 🛠️ Game Development Pipeline
+- 💻 Programming Fundamentals
+- 🧩 Object-Oriented Programming (OOP)
+- 🎨 Game Design & Mechanics
+- ⚙️ Unity Fundamentals
+- 🧱 Objects & Data Management
+- 💥 Physics & Collision Systems
+- 👤 Player Systems
+- 🎯 Game Systems
+- 🤖 Artificial Intelligence (Game AI)
 - 🎨 Game Assets
 - 🎬 Animation
+- 🔗 Animation Integration
 - ⚡ Performance Optimization
+- 💻 Programming Best Practices
 - 📋 Project Management
+- 🎮 Game Production
 - 💰 Budget Management
 
 ---
 
-## 🛠️ Technologies
+# 📚 Handbook Structure
 
-| Technology | Purpose |
-|------------|----------|
-| Markdown | Documentation |
-| MkDocs Material | Documentation Framework |
-| GitHub Pages | Hosting |
-| Unity | Examples |
-| C# | Code Samples |
-
----
-
-## 🚧 Project Status
-
-- ✅ Course Completed
-- ✅ Study Notes Written
-- 🔄 Markdown Conversion
-- ⏳ Documentation Development
-- ⏳ GitHub Pages Deployment
+| Section | Description |
+|----------|-------------|
+| 🎮 Fundamentals | Introduction to the game industry and development workflow |
+| 💻 Programming | Core programming concepts, OOP and scripting |
+| ⚙️ Unity | Unity engine fundamentals and gameplay systems |
+| 🤖 AI | Artificial intelligence techniques for games |
+| 🎨 Assets | Models, textures, materials and animation |
+| 🚀 Optimization | Performance and memory optimization |
+| 📋 Management | Production, project and budget management |
 
 ---
 
-## 💡 Why This Project?
+# 🎯 Who Is This Handbook For?
 
-Learning becomes more effective when knowledge is organized and shared.
+This project is designed for:
 
-This handbook is part of my journey as a software developer and game development learner.
-
-My goal is not only to complete courses but also to build high-quality technical documentation that can help both myself and others.
-
----
-
-!!! tip "Continuous Improvement"
-
-    This documentation will continue to grow with Unity examples,
-    code snippets, interview questions,
-    glossary pages, and additional game development resources.
+- Students learning game development
+- Unity beginners
+- Computer Science students
+- Software developers transitioning into game development
+- Anyone preparing for Unity or gameplay programming interviews
 
 ---
 
-## 🚀 Repository
+# 🧪 Learning Approach
 
-GitHub Repository
+Each chapter includes:
 
-**Game Programming Handbook**
+- 📖 Concept explanations
+- 💻 Unity C# examples
+- 💡 Best Practices
+- ⚠️ Common Mistakes
+- 🧪 Unity Labs
+- 💼 Interview Questions
+- 📚 Additional Resources
+
+---
+
+# 🛠 Technologies
+
+- Unity
+- C#
+- Git
+- GitHub
+- MkDocs Material
+- Markdown
+
+---
+
+# 📈 Project Goals
+
+The primary goals of this project are:
+
+- Build a structured game development knowledge base.
+- Document Unity concepts with practical examples.
+- Share learning resources with the community.
+- Improve technical writing skills.
+- Create an open-source educational handbook.
+
+---
+
+# 🤝 Contributing
+
+Contributions are always welcome!
+
+You can help by:
+
+- Fixing mistakes
+- Improving explanations
+- Adding Unity examples
+- Updating documentation
+- Suggesting new topics
+
+Feel free to open an Issue or submit a Pull Request.
+
+---
+
+# 📖 License
+
+This project is released under the **MIT License**.
+
+---
+
+# 👩‍💻 About the Author
+
+**Beyza Uzun**
+
+Software Developer | Unity Learner | AI & Cybersecurity Enthusiast
+
+- 🌐 GitHub: https://github.com/beyzauzun-ai
+- 💼 LinkedIn: https://www.linkedin.com/in/beyza-uzun-1520672b5/
+
+---
+
+⭐ If this project helps you, consider giving it a **Star** on GitHub!
