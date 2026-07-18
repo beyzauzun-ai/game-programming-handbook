@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="docs/assets/images/banner.png" width="100%">
+</p>
+
+
 # 🎮 Game Programming Handbook
 
 A comprehensive Turkish handbook based on the  
